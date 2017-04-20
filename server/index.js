@@ -1,7 +1,7 @@
 import express from 'express';
 import dbConfig from './config/db';
 import middlewareConfig from './config/middlewares';
-import { MeetupRoutes } from './modules/meetups/controller';
+import { MeetupRoutes } from './modules';
 
 
 const app = express();
